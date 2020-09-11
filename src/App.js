@@ -9,7 +9,7 @@ import About from "./containers/About/About";
 function App() {
   return (
     <div className={classes.App}>
-      <Layout>
+      <Layout data={}>
         <Switch>
           <Route path="/" exact component={Homepage} />
           <Route path="/about" exact component={About} />

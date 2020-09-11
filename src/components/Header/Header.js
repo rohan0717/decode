@@ -6,11 +6,13 @@ import Logo from "../../logo.svg";
 const Header = (props) => {
   return (
     <header className={classes.Header}>
-      <NavLink to="/">
+      <NavLink to="/" exact activeClassName={classes.active}>
         <img src={Logo} className={classes.Logo} alt="decode" />
       </NavLink>
       <ul>
-        <NavLink to="/about">About Us</NavLink>
+        <NavLink to="/about" exact activeClassName={classes.active}>
+          About Us
+        </NavLink>
       </ul>
     </header>
   );
