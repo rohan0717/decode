@@ -1,8 +1,22 @@
-body {
+@font-face {
+  font-family: 'SF';
+  src: url("./assets/Fonts/SFCompactText.ttf");
+}
+
+body,
+*::after,
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-size: 15px;
+  font-family: "SF";
+  --f-bold: 900;
+  --f-medium: 700;
+  --f-regular: 400;
+  --pri-color: black;
+  --sec-color: white;
+  --blue-color: #2680EB;
+  --l-blue-color: #DBEBFF;
+  --spacer: 0 5%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,0 +1,140 @@
+.Intro {
+  /* height: 88vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1.8rem;
+  box-sizing: border-box;
+  padding-left: 12%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.FloatingButton {
+  position: absolute;
+  left: 0%;
+  top: 70%;
+}
+
+.FloatingButton div {
+  position: relative;
+  background-color: var(--blue-color);
+  border-radius: 100%;
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.FloatingButton .Divider {
+  color: #a5a5a5;
+  /* height: 120px; */
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.FloatingButton .Text {
+  font-weight: var(--f-medium);
+}
+
+.FloatingButton img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.IntroContent {
+  width: 100%;
+  /* background-color: brown; */
+  display: flex;
+  flex-direction: column;
+}
+
+.IntroTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.IntroText {
+  text-align: left;
+}
+
+.IntroText h2 {
+  font-size: 3.2rem;
+  font-weight: var(--f-bold);
+}
+
+.Review {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+
+.ReviewCard {
+  position: relative;
+  color: var(--sec-color);
+  text-align: left;
+  width: 16rem;
+  padding: 1rem 1.1rem;
+  line-height: 1.4rem;
+  margin-top: 32%;
+}
+
+.ReviewCard img {
+  width: 16rem;
+}
+
+.ReviewCard div {
+  position: absolute;
+  width: 80%;
+  top: 43%;
+  left: 19%;
+  transform: translateY(-50%);
+}
+
+.ReviewCard p:first-child {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.ReviewCard p:nth-child(2) {
+  color: var(--blue-color);
+  font-size: 1rem;
+}
+
+.IntroBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.IntroBottom img:first-child {
+  margin-left: -15px;
+}
+
+.IntroBottom img:nth-child(1) {
+  width: 18.33%;
+  height: 65.3%;
+}
+
+.IntroBottom img:nth-child(2) {
+  width: 21.6%;
+  height: 100%;
+}
+
+.IntroBottom img:nth-child(3) {
+  width: 32.45%;
+  height: 100%;
+  margin-top: -0px;
+}
+
+.IntroBottom img:nth-child(4) {
+  width: 18.33%;
+  height: 76.13%;
+}
+
+.IntroBottom img:nth-child(5) {
+  width: 9.22%;
+  height: 42.9%;
+}
