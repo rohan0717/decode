@@ -3,7 +3,7 @@ import classes from "./WeDo.module.css";
 import SmallHeader from "../../../components/UI/SmallHeader/SmallHeader";
 import Button from "../../../components/UI/Button/Button";
 import Image from "../../../assets/images/Home/img3.png";
-import DevCard from "../../../components/UI/DevCard/DevCard";
+import ServiceCard from "../../../components/UI/ServiceCard/ServiceCard";
 
 const WeDo = (props) => {
   return (
@@ -37,14 +37,14 @@ const WeDo = (props) => {
         </div>
       </div>
       <div className={classes.DevFlow}>
-        <DevCard head="01">Business Strategy</DevCard>
-        <DevCard head="02">Marketing Strategy</DevCard>
-        <DevCard head="03">Cloud Technology</DevCard>
-        <DevCard head="04">Product Design</DevCard>
-        <DevCard head="05">Development</DevCard>
-        <DevCard Black head="View All">
+        <ServiceCard head="01">Business Strategy</ServiceCard>
+        <ServiceCard head="02">Marketing Strategy</ServiceCard>
+        <ServiceCard head="03">Cloud Technology</ServiceCard>
+        <ServiceCard head="04">Product Design</ServiceCard>
+        <ServiceCard head="05">Development</ServiceCard>
+        <ServiceCard Black head="View All">
           Our Services
-        </DevCard>
+        </ServiceCard>
       </div>
     </section>
   );

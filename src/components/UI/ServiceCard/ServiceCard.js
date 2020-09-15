@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./DevCard.module.css";
+import classes from "./ServiceCard.module.css";
 const DevCard = (props) => {
   let CardClasses = [
     classes.DevCard,
