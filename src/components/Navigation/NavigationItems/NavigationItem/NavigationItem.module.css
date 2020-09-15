@@ -1,0 +1,19 @@
+.NavigationItem {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: var(--pri-color);
+    margin: 0 2.5rem;
+}
+
+.NavigationItem a {
+    text-decoration: none;
+    color: var(--pri-color);
+    padding: 0.5rem;
+}
+
+.active {
+    background-color: black;
+    border-radius: 5px;
+    color: var(--sec-color) !important;
+}

@@ -1,0 +1,39 @@
+.DevCard {
+  padding: 1.2rem 1.4rem;
+  width: 28%;
+  box-sizing: border-box;
+  text-align: left;
+  margin: 10px 0;
+  border-radius: 7px;
+}
+
+.DevCard * {
+  margin: 5px 0;
+}
+
+.White {
+  background-color: var(--sec-color);
+  color: var(--pri-color);
+}
+
+.Black {
+  color: var(--sec-color);
+  background-color: var(--pri-color);
+}
+
+.Head {
+  color: #a5a5a5;
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+.Text {
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: var(--f-bold);
+}
+
+.Arrow i {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}

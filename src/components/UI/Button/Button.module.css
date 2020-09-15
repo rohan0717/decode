@@ -1,0 +1,29 @@
+.Button {
+    background-color: var(--pri-color);
+    border: none;
+    color: var(--sec-color);
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.Link {
+    text-decoration: none;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}

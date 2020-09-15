@@ -1,0 +1,13 @@
+.SmallHeader {
+    text-transform: uppercase;
+}
+
+.SmallHeader::before {
+    position: relative;
+    bottom: 6px;
+    content: "_ ";
+    font-size: 3rem;
+    letter-spacing: -5px;
+    font-weight: var(--f-medium);
+    color: var(--blue-color);
+}

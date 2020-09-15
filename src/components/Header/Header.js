@@ -1,19 +1,19 @@
 import React from "react";
 import classes from "./Header.module.css";
 import { NavLink } from "react-router-dom";
-import Logo from "../../logo.svg";
+
+import Logo from "../../assets/images/Logo/Logo.svg";
+import NavigationItems from "../Navigation/NavigationItems/NavigationItems";
+import Button from "../UI/Button/Button";
 
 const Header = (props) => {
   return (
     <header className={classes.Header}>
-      <NavLink to="/" exact activeClassName={classes.active}>
-        <img src={Logo} className={classes.Logo} alt="decode" />
+      <NavLink className={classes.Logo} to="/" exact>
+        <img src={Logo} alt="DECODE" />
       </NavLink>
-      <ul>
-        <NavLink to="/about" exact activeClassName={classes.active}>
-          About Us
-        </NavLink>
-      </ul>
+      <NavigationItems></NavigationItems>
+      <Button link="/">Contact Us</Button>
     </header>
   );
 };
